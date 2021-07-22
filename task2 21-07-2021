@@ -34,7 +34,7 @@ xhr.open("GET", "https://restcountries.eu/rest/v2/all");
 xhr.onload = function () {
     var data = JSON.parse(this.response);
     for(let info in data)
-    console.log(data[info].name+','+data[info].population+','+data[info].subregion);
+    console.log('Name:'+data[info].name+',Population='+data[info].population+',Sub region='+data[info].subregion);
 
 };
 xhr.send();
