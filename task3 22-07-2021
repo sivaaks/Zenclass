@@ -1,0 +1,43 @@
+var obj1 = { name: "Person 1", age:5 };
+var obj2 = { age:5, name: "Person 1" };
+
+if(obj1.name==obj2.name && obj1.age==obj2.age) console.log('true');
+else console.log('false');
+
+let resume={
+      personalDetails:{
+        name: 'Siva chidambaram',
+        DOB: '17:02:1995',
+        email:'mail@sivachidambaram.com',
+        phone: '8667084935'
+    },
+    qualification:{
+        qualification:'MCA',
+        cgpa:'6.9',
+        institution:'PSG College of Technology',
+        yearofpassing:'2018'
+    },
+    skillSet:{
+        languages:'Java script, PHP, Java for Android',
+        web:'HTML, CSS, BOOTSTRAP',
+        database: 'MySQL, SQLite',
+        os:'Windows, Android,Linux',
+        tools:'Visual Studio Code, Android Studio, WordPress'
+    },
+    projects:{
+        ug:'Online shopping web application',
+        pgminiproject:'Responsive web design for computer applications department',
+        pgminiproject2:'Responsive web design for computer applications department',
+        pgmainproject:'Automatic wisher for events',
+    }
+};
+
+//Examples
+//To print personal details
+console.log(resume.personalDetails);
+//To print projects
+console.log(resume.projects);
+//To print pg main project
+console.log(resume.projects.pgmainproject);
+//To print complete resume
+console.log(resume);
