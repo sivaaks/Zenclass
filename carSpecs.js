@@ -52,6 +52,8 @@ let carSpecs= {
 //To print engine capacity
 console.log(carSpecs.engine.cpacity);
 //To print fonrt brakes
-console.log(carSpecs.chassis.brakes.front)
+console.log(carSpecs.chassis.brakes.front);
+//To print car transmission
+console.log(carSpecs.transmission.type);
 //To print entire car specs
 console.log(carSpecs);
