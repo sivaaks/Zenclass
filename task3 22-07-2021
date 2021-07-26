@@ -7,7 +7,7 @@ else console.log('false');
 let resume={
       personalDetails:{
         name: 'Siva chidambaram',
-        DOB: '17:02:1995',
+        DOB: '01/01/0001',
         email:'demo@example.com',
         phone: '9999999999'
     },
