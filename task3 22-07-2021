@@ -8,21 +8,21 @@ let resume={
       personalDetails:{
         name: 'Siva chidambaram',
         DOB: '17:02:1995',
-        email:'mail@sivachidambaram.com',
-        phone: '8667084935'
+        email:'demo@example.com',
+        phone: '9999999999'
     },
     qualification:{
         qualification:'MCA',
         cgpa:'6.9',
-        institution:'PSG College of Technology',
+        institution:'College',
         yearofpassing:'2018'
     },
     skillSet:{
-        languages:'Java script, PHP, Java for Android',
-        web:'HTML, CSS, BOOTSTRAP',
-        database: 'MySQL, SQLite',
+        languages:['Java'script'], ['PHP'], ['Java for Android'],
+        web:['HTML'], ['CSS'], ['BOOTSTRAP'],
+        database: ['MySQL'], ['SQLite'],
         os:'Windows, Android,Linux',
-        tools:'Visual Studio Code, Android Studio, WordPress'
+        tools:['Visual Studio Code'], ['Android Studio'], ['WordPress']
     },
     projects:{
         ug:'Online shopping web application',
