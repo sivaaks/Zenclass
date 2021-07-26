@@ -21,7 +21,7 @@ let resume={
         languages:['Javascript'], ['PHP'], ['Java for Android'],
         web:['HTML'], ['CSS'], ['BOOTSTRAP'],
         database: ['MySQL'], ['SQLite'],
-        os:'Windows, Android,Linux',
+        os:['Windows'], ['Android,Linux'],
         tools:['Visual Studio Code'], ['Android Studio'], ['WordPress']
     },
     projects:{
