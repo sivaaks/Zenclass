@@ -2,3 +2,5 @@
 window: Global object in JavaScript and root of the document object model(DOM)
 screen: Screen has information about users physical device dimensions
 document : Document has document object model (DOM)
+
+2)Soved some problems on Codekata
