@@ -1,0 +1,4 @@
+1)Read about the difference between window, screen and document in JavaScript
+window: Global object in JavaScript and root of the document object model(DOM)
+screen: Screen has information about users physical device dimensions
+document : Document has document object model (DOM)
