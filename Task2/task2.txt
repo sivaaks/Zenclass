@@ -41,3 +41,9 @@ typeof({})
 "object"
 typeof(NaN)
 "number"
+
+5)What is prototype?
+1.JavaScript uses prototype to inherit methods and objects.
+2.It is a prototype oriented language. 
+3.User can create a custom prototype method.
+4.Prototype property can be used to add methods to existing constructors
