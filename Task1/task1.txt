@@ -1,0 +1,23 @@
+1)Difference between a statically typed and dynamically typed language are as follows:
+Statically typed: Variable type must be known or defined at compile time or runtime (in some languages it may inferred). It reduces bugs regarding to variable types. Examples (
+C, C++, Java)
+Dynamically typed: Variable type is automatically inferred at compile time or runtime, no need to specify explicitly. Most scripting languages are dynamically typed. Example (PHP,
+JavaScript)
+
+2)Scripting languages vs Programming languages:
+Scripting languages are also programming languages, the main difference between them are , scripting languages does not require a explicit compilation step it is often interpreted.
+Example (JavaScript, VBScript)
+at run time. But a programming language is compiled, stored and can be ran when needed. To note, almost any language can be compiled or interpreted. Example (C, C++)
+
+3)Difference between HTTP1 vs HTTP2:
+HTTP1: 
+1.Loads resources one at a time, blocking the other resources
+2.It provides only the file which the client has asked
+3.It uses compression to reduce file size
+
+HTT2:
+1.Loads multiple resources in a single TCP connection, hence it will not block other resources
+2.It provides a index of files before the clients asks for it called as "server push"
+3.It uses advance compression method called as HPACK to reduce file size.
+
+4)Solved some codekata problems
