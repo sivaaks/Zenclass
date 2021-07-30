@@ -1,0 +1,43 @@
+1)List 5 difference between Browser JS(console) v Nodejs
+Js Console
+1.Runs in browser
+2.Programming language
+3.Runs in client side
+4.Used in frontend development
+5.JavaScript uses browser specific engines
+
+Node Js
+1.Runs outside the browser
+2.Environment for executing JavaScript
+3.Runs in server side
+4.Used in server-side development
+5.Node Js uses Chrome V8 engine
+
+2)In the video, Ryan seddon explains 
+1.How the browser parses the website including HTML, CSS parsing 
+2.Performance factors of rendering a website.
+3.DOM tree
+4.Optimizing website loading
+5.Script tags placement
+6.Inline CSS 
+
+3) To read - https://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags
+It is valid to omit head, body, html tags as browser inferes the tags, in HTML5 it is not neccessary to close the tag and it will just work fine as expected. It helps to keep the code clean
+
+4)Execute the bellow code and write your description in txt file
+typeof(1)
+"number"
+typeof(1.1)
+"number"
+typeof('1.1')
+"string"
+typeof(null)
+"object"
+typeof(undefined)
+"undefined"
+typeof([])
+"object"
+typeof({})
+"object"
+typeof(NaN)
+"number"
