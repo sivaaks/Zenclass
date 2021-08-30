@@ -1,0 +1,118 @@
+.container {
+  border: 1px solid #000;
+  display: block;
+  text-align: center;
+}
+
+.inside-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 10px;
+}
+
+.img-container {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.feilds-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.field-names {
+  font-size: 22px;
+  text-align: right;
+}
+
+.feild-values {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  padding-left: 10px;
+}
+
+input,
+select {
+  font-size: 24px;
+}
+
+.buttons {
+  margin-left: 550px;
+  padding-bottom: 50px;
+}
+
+button {
+  padding: 15px 50px 15px 50px;
+}
+
+@media (max-width: 900px) {
+  .inside-container {
+    display: block;
+  }
+
+  .field-names {
+    text-align: left;
+  }
+
+  .container {
+    text-align: left;
+  }
+  .buttons {
+    margin-left: 250px;
+  }
+  .feilds-container {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 560px) {
+  .buttons {
+    margin-left: 210px;
+  }
+  .feilds-container {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 490px) {
+  .buttons {
+    margin-left: 10px;
+    text-align: right;
+    padding-right: 10px;
+  }
+
+  .field-names {
+    font-size: 14px;
+  }
+
+  .feilds-container {
+    gap: 3px;
+  }
+
+  .feild-values {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 2px;
+  }
+  input,
+  select {
+    font-size: 14px;
+  }
+}
+
+h1,
+p {
+  text-align: center;
+}
